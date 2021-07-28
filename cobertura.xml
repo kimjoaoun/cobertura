@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage line-rate="0.653846153846154" branch-rate="0" lines-covered="17" lines-valid="26" branches-covered="0" branches-valid="0" complexity="0" version="3.5.1" timestamp="2021-07-28 17:41:38">
+<coverage line-rate="0.62962962962963" branch-rate="0" lines-covered="17" lines-valid="27" branches-covered="0" branches-valid="0" complexity="0" version="3.5.1" timestamp="2021-07-28 17:48:51">
   <sources/>
   <packages>
-    <package name="cobertura" line-rate="0.653846153846154" branch-rate="0" complexity="0">
+    <package name="cobertura" line-rate="0.62962962962963" branch-rate="0" complexity="0">
       <classes>
-        <class name="coverage_badge.R" filename="R/coverage_badge.R" line-rate="0.653846153846154" branch-rate="0" complexity="0">
+        <class name="coverage_badge.R" filename="R/coverage_badge.R" line-rate="0.62962962962963" branch-rate="0" complexity="0">
           <methods>
             <method name="generate_cobertura" signature="" line-rate="0" branch-rate="0">
               <lines>
@@ -45,7 +45,8 @@
                 <line number="65" hits="0" branch="false"/>
                 <line number="66" hits="0" branch="false"/>
                 <line number="67" hits="0" branch="false"/>
-                <line number="69" hits="0" branch="false"/>
+                <line number="68" hits="0" branch="false"/>
+                <line number="70" hits="0" branch="false"/>
               </lines>
             </method>
           </methods>
@@ -75,7 +76,8 @@
             <line number="65" hits="0" branch="false"/>
             <line number="66" hits="0" branch="false"/>
             <line number="67" hits="0" branch="false"/>
-            <line number="69" hits="0" branch="false"/>
+            <line number="68" hits="0" branch="false"/>
+            <line number="70" hits="0" branch="false"/>
           </lines>
         </class>
       </classes>
