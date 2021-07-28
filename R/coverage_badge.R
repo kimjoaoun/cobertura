@@ -42,8 +42,8 @@ coverage_percentage <- function(cobertura_path = "cobertura.xml", delete_xml = F
 #'
 .coverage_url <- function(coverage_perc) {
   dplyr::case_when(
-    coverage_perc < 65 ~ "red",
-    coverage_perc >= 65 & coverage_perc < 80 ~ "yellow",
+    coverage_perc < 50 ~ "red",
+    coverage_perc >= 50 & coverage_perc < 80 ~ "yellow",
     coverage_perc >= 80 ~ "brightgreen"
   ) -> color
 
@@ -63,9 +63,7 @@ create_coverage_badge <- function(coverage_perc, path = "coverage_badge.svg") {
   url <- .coverage_url(coverage_perc)
 
   url %>%
-    xml2::read_html() %>%
-    stringi::stri_extract(regex = "<svg(.|\\n){1,}svg>") %>%
-    readr::write_lines(path)
+    download.file(destfile = path)
 
   invisible(url)
 }
