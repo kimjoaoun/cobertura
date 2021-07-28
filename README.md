@@ -4,4 +4,11 @@
 
 ![Coverage Badge](./coverage_badge.svg)
 
-An R package that generates standalone coverage badges
+--------
+
+Install the Development Version:
+
+```r
+remotes::install_github("kimjoaoun/cobertura")
+```
+
