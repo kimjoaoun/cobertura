@@ -1,11 +1,10 @@
 Package: cobertura
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simple and cool coverage badges for your package.
 Version: 0.0.3
 Author: Joao Pedro Oliveira
 Maintainer: Joao Pedro Oliveira <joaopsantos@pm.me>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: ...
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
