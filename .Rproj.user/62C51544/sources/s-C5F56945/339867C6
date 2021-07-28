@@ -1,0 +1,26 @@
+{
+    "id": "339867C6",
+    "path": "~/Documentos/projetos/cobertura/tests/testthat/test-coverage_url.R",
+    "project_path": "tests/testthat/test-coverage_url.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1627487950722.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1627487950,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1627487950,
+    "read_only": false,
+    "read_only_alternatives": []
+}
