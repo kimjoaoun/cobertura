@@ -59,7 +59,10 @@ jobs:
         shell: Rscript {0}
 
       - name: Coverage
-        run: covr::package_coverage()
+        run: |
+          cobertura::generate_cobertura()
+          cobertura::create_coverage_badge(cobertura::coverage_percentage())
 
-      - name: Coverage Badge
-        run: cobertura::create_coverage_badge(cobertura::coverage_percentage())
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Badge de Coverage
