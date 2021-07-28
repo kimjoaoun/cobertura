@@ -64,7 +64,8 @@ create_coverage_badge <- function(coverage_perc, path = "coverage_badge.svg") {
 
   url %>%
     xml2::read_html() %>%
-    xml2::write_html(path)
+    stringi::stri_extract(regex = "<svg(.|\\n){1,}svg>") %>%
+    readr::write_lines(path)
 
   invisible(url)
 }
