@@ -14,9 +14,9 @@ coverage_percentage <- function(cobertura_path = "cobertura.xml") {
 
 .coverage_url <- function(coverage_perc) {
   dplyr::case_when(
-    coverage_perc < 65 ~ "Red",
-    coverage_perc >= 65 & coverage_perc < 80 ~ "Yellow",
-    coverage_perc >= 80 ~ "DarkGreen"
+    coverage_perc < 65 ~ "red",
+    coverage_perc >= 65 & coverage_perc < 80 ~ "yellow",
+    coverage_perc >= 80 ~ "brightgreen"
   ) -> color
 
   glue::glue("https://img.shields.io/badge/Code%20Coverage-{coverage_perc}%25-{color}")
