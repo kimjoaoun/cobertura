@@ -1,5 +1,8 @@
-test_that("multiplication works", {
-  coverage_percentage("./tests/test_xml/badge_tst.xml")
+test_that("Test if coverage_url returns a correct URL", {
+  coverage_percentage("./tests/test_xml/badge_tst.xml") -> covr_p
 
-  .coverage_url(coverage_percentage("./tests/test_xml/badge_tst.xml"))
+  testthat::expect_equal(
+    .coverage_url(coverage_perc = covr_p),
+    "https://img.shields.io/badge/Code%20Coverage-19.35%25-red"
+  )
 })

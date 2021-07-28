@@ -1,3 +1,5 @@
+/home/kimjoaoun/Documentos/projetos/cobertura/.gitignore="AEBC0101"
 /home/kimjoaoun/Documentos/projetos/cobertura/R/coverage_badge.R="AED1B8FC"
 /home/kimjoaoun/Documentos/projetos/cobertura/badge.svg="D2D79E61"
 /home/kimjoaoun/Documentos/projetos/cobertura/tests/testthat/test-coverage_percentage.R="38BC521E"
+/home/kimjoaoun/Documentos/projetos/cobertura/tests/testthat/test-coverage_url.R="0A2AAE44"
