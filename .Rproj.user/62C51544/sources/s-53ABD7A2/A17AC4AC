@@ -3,7 +3,7 @@
     "path": "~/Documentos/projetos/cobertura/R/coverage_badge.R",
     "project_path": "R/coverage_badge.R",
     "type": "r_source",
-    "hash": "1401103412",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1627484297332.0,
@@ -12,7 +12,7 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "11,0",
+        "cursorPosition": "24,11",
         "scrollLine": "0"
     },
     "folds": "",
